@@ -16,103 +16,16 @@
         <Class IRI="#A"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Acceding_max"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Active_region"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Astronauts_outside_spacecraft"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Average"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#B"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Blackout_in_radio_transmissions"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#C"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Chances_of_solar_explosion"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cicle"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Classification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Communication_systems"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Coordinates"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cycle_22"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cycle_23"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cycle_24"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Damages"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Decay_minimum"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Electronic_equipment"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#High"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Identifier_number"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Low"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#M"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Max_decay"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#McIntosh_Classifications"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Minimum_acceding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#None"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Phase_of_solar_cicle"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Power_distribution_stations"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Satellites"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Solar_Flare_Classification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Solar_globe"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Space_mission"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Times_temp"/>
     </Declaration>
     <Declaration>
         <Class IRI="#X"/>
@@ -142,6 +55,21 @@
         <Class IRI="#Z_values"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#acceding_max"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#active_region"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#astronauts_outside_spacecraft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#average"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#blackout_in_radio_transmissions"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#c_c"/>
     </Declaration>
     <Declaration>
@@ -155,6 +83,57 @@
     </Declaration>
     <Declaration>
         <Class IRI="#c_x"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chances_of_solar_explosion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#communication_systems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coordinates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cycle_22"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cycle_23"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cycle_24"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#damages"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#decay_minimum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#electronic_equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#high"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#low"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#max_decay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mcIntosh_classifications"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#minimum_acceding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#none"/>
     </Declaration>
     <Declaration>
         <Class IRI="#p_a"/>
@@ -177,117 +156,62 @@
     <Declaration>
         <Class IRI="#p_x"/>
     </Declaration>
+    <Declaration>
+        <Class IRI="#phase_of_solar_cicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#power_distribution_stations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#satellites"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#solar_flare_classification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#solar_globe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#space_mission"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#times_temp"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#belong"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#cause"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_classified"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#A"/>
-        <Class IRI="#Solar_Flare_Classification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Acceding_max"/>
-        <Class IRI="#Phase_of_solar_cicle"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Active_region"/>
-        <Class IRI="#Solar_globe"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Astronauts_outside_spacecraft"/>
-        <Class IRI="#Damages"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Average"/>
-        <Class IRI="#Chances_of_solar_explosion"/>
+        <Class IRI="#solar_flare_classification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#B"/>
-        <Class IRI="#Solar_Flare_Classification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Blackout_in_radio_transmissions"/>
-        <Class IRI="#Damages"/>
+        <Class IRI="#solar_flare_classification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#C"/>
-        <Class IRI="#Solar_Flare_Classification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Communication_systems"/>
-        <Class IRI="#Damages"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cycle_22"/>
-        <Class IRI="#Cicle"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cycle_23"/>
-        <Class IRI="#Cicle"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cycle_24"/>
-        <Class IRI="#Cicle"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Decay_minimum"/>
-        <Class IRI="#Phase_of_solar_cicle"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Electronic_equipment"/>
-        <Class IRI="#Damages"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#High"/>
-        <Class IRI="#Chances_of_solar_explosion"/>
+        <Class IRI="#solar_flare_classification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Identifier_number"/>
-        <Class IRI="#Active_region"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Low"/>
-        <Class IRI="#Chances_of_solar_explosion"/>
+        <Class IRI="#active_region"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#M"/>
-        <Class IRI="#Solar_Flare_Classification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Max_decay"/>
-        <Class IRI="#Phase_of_solar_cicle"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#McIntosh_Classifications"/>
-        <Class IRI="#Classification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Minimum_acceding"/>
-        <Class IRI="#Phase_of_solar_cicle"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#None"/>
-        <Class IRI="#Damages"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Power_distribution_stations"/>
-        <Class IRI="#Damages"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Satellites"/>
-        <Class IRI="#Damages"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Solar_Flare_Classification"/>
-        <Class IRI="#Classification"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Space_mission"/>
-        <Class IRI="#Damages"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Times_temp"/>
-        <Class IRI="#Solar_globe"/>
+        <Class IRI="#solar_flare_classification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#X"/>
-        <Class IRI="#Solar_Flare_Classification"/>
+        <Class IRI="#solar_flare_classification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Z_A"/>
@@ -319,7 +243,48 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Z_values"/>
-        <Class IRI="#McIntosh_Classifications"/>
+        <Class IRI="#mcIntosh_classifications"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#acceding_max"/>
+        <Class IRI="#phase_of_solar_cicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#active_region"/>
+        <Class IRI="#solar_globe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#active_region"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#coordinates"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#active_region"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#times_temp"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#active_region"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#is_classified"/>
+            <Class IRI="#mcIntosh_classifications"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#astronauts_outside_spacecraft"/>
+        <Class IRI="#damages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#average"/>
+        <Class IRI="#chances_of_solar_explosion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blackout_in_radio_transmissions"/>
+        <Class IRI="#damages"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#c_c"/>
@@ -335,11 +300,73 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#c_values"/>
-        <Class IRI="#McIntosh_Classifications"/>
+        <Class IRI="#mcIntosh_classifications"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#c_x"/>
         <Class IRI="#c_values"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#communication_systems"/>
+        <Class IRI="#damages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coordinates"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#chances_of_solar_explosion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cycle_22"/>
+        <Class IRI="#cicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cycle_23"/>
+        <Class IRI="#cicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cycle_24"/>
+        <Class IRI="#cicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#decay_minimum"/>
+        <Class IRI="#phase_of_solar_cicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#electronic_equipment"/>
+        <Class IRI="#damages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#high"/>
+        <Class IRI="#chances_of_solar_explosion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#low"/>
+        <Class IRI="#chances_of_solar_explosion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#max_decay"/>
+        <Class IRI="#phase_of_solar_cicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mcIntosh_classifications"/>
+        <Class IRI="#classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mcIntosh_classifications"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#chances_of_solar_explosion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#minimum_acceding"/>
+        <Class IRI="#phase_of_solar_cicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#none"/>
+        <Class IRI="#damages"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#p_a"/>
@@ -363,11 +390,59 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#p_values"/>
-        <Class IRI="#McIntosh_Classifications"/>
+        <Class IRI="#mcIntosh_classifications"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#p_x"/>
         <Class IRI="#p_values"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phase_of_solar_cicle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#belong"/>
+            <Class IRI="#cicle"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#phase_of_solar_cicle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has"/>
+            <Class IRI="#chances_of_solar_explosion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#power_distribution_stations"/>
+        <Class IRI="#damages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#satellites"/>
+        <Class IRI="#damages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#solar_flare_classification"/>
+        <Class IRI="#classification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#solar_flare_classification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#cause"/>
+            <Class IRI="#damages"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#space_mission"/>
+        <Class IRI="#damages"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#times_temp"/>
+        <Class IRI="#solar_globe"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#times_temp"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#belong"/>
+            <Class IRI="#phase_of_solar_cicle"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <DisjointClasses>
         <Class IRI="#A"/>
@@ -377,124 +452,6 @@
         <Class IRI="#X"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="#Acceding_max"/>
-        <Class IRI="#Decay_minimum"/>
-        <Class IRI="#Max_decay"/>
-        <Class IRI="#Minimum_acceding"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Active_region"/>
-        <Class IRI="#Times_temp"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Astronauts_outside_spacecraft"/>
-        <Class IRI="#Blackout_in_radio_transmissions"/>
-        <Class IRI="#Communication_systems"/>
-        <Class IRI="#Electronic_equipment"/>
-        <Class IRI="#None"/>
-        <Class IRI="#Power_distribution_stations"/>
-        <Class IRI="#Satellites"/>
-        <Class IRI="#Space_mission"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Average"/>
-        <Class IRI="#High"/>
-        <Class IRI="#Low"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Chances_of_solar_explosion"/>
-        <Class IRI="#Cicle"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Chances_of_solar_explosion"/>
-        <Class IRI="#Classification"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Chances_of_solar_explosion"/>
-        <Class IRI="#Coordinates"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Chances_of_solar_explosion"/>
-        <Class IRI="#Damages"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Chances_of_solar_explosion"/>
-        <Class IRI="#Phase_of_solar_cicle"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Chances_of_solar_explosion"/>
-        <Class IRI="#Solar_globe"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Cicle"/>
-        <Class IRI="#Classification"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Cicle"/>
-        <Class IRI="#Coordinates"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Cicle"/>
-        <Class IRI="#Damages"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Cicle"/>
-        <Class IRI="#Phase_of_solar_cicle"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Cicle"/>
-        <Class IRI="#Solar_globe"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Classification"/>
-        <Class IRI="#Coordinates"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Classification"/>
-        <Class IRI="#Damages"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Classification"/>
-        <Class IRI="#Phase_of_solar_cicle"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Classification"/>
-        <Class IRI="#Solar_globe"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Coordinates"/>
-        <Class IRI="#Damages"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Coordinates"/>
-        <Class IRI="#Phase_of_solar_cicle"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Coordinates"/>
-        <Class IRI="#Solar_globe"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Cycle_22"/>
-        <Class IRI="#Cycle_23"/>
-        <Class IRI="#Cycle_24"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Damages"/>
-        <Class IRI="#Phase_of_solar_cicle"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Damages"/>
-        <Class IRI="#Solar_globe"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#McIntosh_Classifications"/>
-        <Class IRI="#Solar_Flare_Classification"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#Phase_of_solar_cicle"/>
-        <Class IRI="#Solar_globe"/>
-    </DisjointClasses>
-    <DisjointClasses>
         <Class IRI="#Z_A"/>
         <Class IRI="#Z_B"/>
         <Class IRI="#Z_C"/>
@@ -509,10 +466,124 @@
         <Class IRI="#p_values"/>
     </DisjointClasses>
     <DisjointClasses>
+        <Class IRI="#acceding_max"/>
+        <Class IRI="#decay_minimum"/>
+        <Class IRI="#max_decay"/>
+        <Class IRI="#minimum_acceding"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#active_region"/>
+        <Class IRI="#times_temp"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#astronauts_outside_spacecraft"/>
+        <Class IRI="#blackout_in_radio_transmissions"/>
+        <Class IRI="#communication_systems"/>
+        <Class IRI="#electronic_equipment"/>
+        <Class IRI="#none"/>
+        <Class IRI="#power_distribution_stations"/>
+        <Class IRI="#satellites"/>
+        <Class IRI="#space_mission"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#average"/>
+        <Class IRI="#high"/>
+        <Class IRI="#low"/>
+    </DisjointClasses>
+    <DisjointClasses>
         <Class IRI="#c_c"/>
         <Class IRI="#c_i"/>
         <Class IRI="#c_o"/>
         <Class IRI="#c_x"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#chances_of_solar_explosion"/>
+        <Class IRI="#cicle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#chances_of_solar_explosion"/>
+        <Class IRI="#classification"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#chances_of_solar_explosion"/>
+        <Class IRI="#coordinates"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#chances_of_solar_explosion"/>
+        <Class IRI="#damages"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#chances_of_solar_explosion"/>
+        <Class IRI="#phase_of_solar_cicle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#chances_of_solar_explosion"/>
+        <Class IRI="#solar_globe"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#cicle"/>
+        <Class IRI="#classification"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#cicle"/>
+        <Class IRI="#coordinates"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#cicle"/>
+        <Class IRI="#damages"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#cicle"/>
+        <Class IRI="#phase_of_solar_cicle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#cicle"/>
+        <Class IRI="#solar_globe"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#classification"/>
+        <Class IRI="#coordinates"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#classification"/>
+        <Class IRI="#damages"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#classification"/>
+        <Class IRI="#phase_of_solar_cicle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#classification"/>
+        <Class IRI="#solar_globe"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#coordinates"/>
+        <Class IRI="#damages"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#coordinates"/>
+        <Class IRI="#phase_of_solar_cicle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#coordinates"/>
+        <Class IRI="#solar_globe"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#cycle_22"/>
+        <Class IRI="#cycle_23"/>
+        <Class IRI="#cycle_24"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#damages"/>
+        <Class IRI="#phase_of_solar_cicle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#damages"/>
+        <Class IRI="#solar_globe"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#mcIntosh_classifications"/>
+        <Class IRI="#solar_flare_classification"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#p_a"/>
@@ -521,6 +592,10 @@
         <Class IRI="#p_r"/>
         <Class IRI="#p_s"/>
         <Class IRI="#p_x"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#phase_of_solar_cicle"/>
+        <Class IRI="#solar_globe"/>
     </DisjointClasses>
 </Ontology>
 
